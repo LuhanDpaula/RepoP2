@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body class="bg-blue">
+    <nav class="navbar navbar-expand-lg bg-blue">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <img src="imgs/logo.webp" alt="" width="50px" height="50px">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="color: aliceblue;"><h2>Ínicio</h2></a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search"/>
+              <button class="btn btn-outline-success" type="submit">Procurar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+   
+<!-------------------------------------------------------------------->
+
+
+
+
+
+<div class="container-fluid text-center">
+    <div class="row">
+
+        
+
+
+      <div class="col-10" style="background-color: aquamarine;">
+        
+        <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            Filtrar produtos
+          </a>
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Filtragem</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                Eu não lembro dessa aula/não vim
+              </div>
+              <div class="dropdown mt-3">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                  Filtros
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Produtos de beleza</a></li>
+                  <li><a class="dropdown-item" href="#">Ferramentas</a></li>
+                  <li><a class="dropdown-item" href="#">Cosméticos</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Escolha a quantidade de produtos a serem exibidos</option>
+            <option value="1">2 produtos</option>
+            <option value="2">4 produtos</option>
+            <option value="3">8 produtos</option>
+          </select>
+        
+
+        <div>
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#">Ínicio</a></li>
+                      <li class="breadcrumb-item active" aria-current="page"></a>Outra página</li>
+                    </ol>
+                  </nav>
+          </div>
+
+          <div class="row  justify-content-around">
+
+          <div class="col-4 card" style="width: 18rem;">
+            <img src="imgs/vaporizador.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+            <a href="detalhes.html"><h5 class="card-title">Vaporizador</h5></a>
+              <p class="card-text">Vaporizador/Higieniador de Roupas Black&Decker BDV2000V Portátil 200ml 1200W com Acess - 1200W</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><small>4x de R$59,99 sem juros</small></li>
+              <li class="list-group-item"><h2>R$229,99</h2></li>
+              <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </ul>
+          </div>
+
+          <div class="col-4 card" style="width: 18rem;">
+            <img src="imgs/faqueiro.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+            <a href="detalhes.html"><h5 class="card-title">Faqueiro</h5></a>
+              <p class="card-text">Faqueiro Brinox Inox 20 Peças Veneza</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><small>3x de R$19,99 sem juros</small></li>
+              <li class="list-group-item"><h2>R$69,70</h2></li>
+              <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </ul>
+          </div>
+
+          <div class="col-4 card" style="width: 18rem;">
+            <img src="imgs/cafeteira.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+            <a href="detalhes.html"><h5 class="card-title">Cafeteira/h5></a>
+              <p class="card-text">Cafeteira Oster com Jarra Inox 1,2L</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><small>2x de R$35,95 sem juros</small></li>
+              <li class="list-group-item"><h2>R$83,25</h2></li>
+              <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </ul>
+          </div>
+
+          <div class="col-4 card" style="width: 18rem;">
+            <img src="imgs/maquina.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+            <a href="detalhes.html"><h5 class="card-title">Máquina de solda</h5></a>
+              <p class="card-text">Máquina de Solda Multiprocesso 228a MIG, Eletrodo e TIG LIFT 220v Flex c/ acessórios Pró Euro - PRO EURO</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><small>5x de R$67,99 sem juros</small></li>
+              <li class="list-group-item"><h2>R$224,75</h2></li>
+              <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </ul>
+          </div>
+        
+          </div>
+<!------------------------------------------------------------->
+
+
+          <div class="row  justify-content-around">
+
+            <div class="col-4 card mt-2" style="width: 18rem;">
+              <img src="imgs/kit.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+              <a href="detalhes.html"><h5 class="card-title">Kit de chaves de fenda</h5></a>
+                <p class="card-text">Kit Jogo De Chaves Fenda E Philips Imantada Ferramenta 6 Peças - Link Sky</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><small>3x de R$59,99 sem juros</small></li>
+                <li class="list-group-item"><h2>R$132,99</h2></li>
+                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+              </ul>
+            </div>
+  
+            <div class="col-4 card mt-2" style="width: 18rem;">
+                <img src="imgs/celular.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                <a href="detalhes.html"><h5 class="card-title">Samsung A07</h5></a>
+                  <p class="card-text">Smartphone Samsung A07 128GB Preto 4GB RAM Tela 6,7" Câm. Dupla + Selfie 8MP</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><small>5x de R$97,76 sem juros</small></li>
+                  <li class="list-group-item"><h2>R$529,99</h2></li>
+                  <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                </ul>
+              </div>
+              
+              <div class="col-4 card mt-2" style="width: 18rem;">
+                <img src="imgs/controle.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                <a href="detalhes.html"><h5 class="card-title">Controle</h5></a>
+                  <p class="card-text">Apresentador Passador de Slides Apontador Controle Sem Fio Laser Caneta - OPEN ZEE</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><small>4x de R$59,99 sem juros</small></li>
+                  <li class="list-group-item"><h2>R$229,99</h2></li>
+                  <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                </ul>
+              </div>
+
+              <div class="col-4 card mt-2" style="width: 18rem;">
+                <img src="imgs/projetor.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                <a href="detalhes.html"><h5 class="card-title">Projetor</h5></a>
+                  <p class="card-text">Projetor Epson PowerLite W49 WXGA Portátil - 3800 Lumens 3LCD USB HDMI Branco</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><small>4x de R$45,99 sem juros</small></li>
+                  <li class="list-group-item"><h2>R$329,99</h2></li>
+                  <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                </ul>
+              </div>
+          
+            </div>
+
+        
+      </div>
+
+
+
+
+
+      
+      <div class="col-2" style="background-color: aqua; ">
+        <div class="card mt-2" style="width: 18rem;">
+            <img src="https://fatecjahu.edu.br/wp-content/uploads/2025/06/GTI.webp" class="card-img-top" alt="...">
+            <p>venha cursar GTI na Fatec Jahu!</p>
+        </div>
+        <div class="card mt-2" style="width: 18rem;">
+            <img src="https://fatecjahu.edu.br/wp-content/uploads/2025/06/DSM.webp" class="card-img-top" alt="...">
+            <p>venha cursar Dsm na Fatec Jahu!</p>
+        </div>
+      </div>
+    </div>
+ </div>
+
+
+
+
+
+
+      
+
+
+
+
+<h2 style="color: rgb(100, 100, 253);">Desenvolvido por: Luhan de Paula Ribeiro - luhan.ribeiro@fatec.com  ©Fatec Jahu.</h2>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  
+<link rel="stylesheet" href="js/script.js">
+</body>
+</html>
